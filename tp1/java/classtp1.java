@@ -5,11 +5,13 @@
 */
 
 public class classtp1{
+    //atribut private
     private String team;
     private String country;
     private String est;
     private String playername;
 
+    //membuat konstruktor sekaligus untuk mengakses variabel private
     public classtp1(String team, String country, String est, String playername){
         this.team = team;
         this.country = country;
@@ -17,10 +19,12 @@ public class classtp1{
         this.playername = playername;
     }
 
+    //membuat konstruktor kosong
     public classtp1(){
 
     }
 
+    //membuat fungsi untuk me-return isi atribut private
     public String getteam(){
         return team;
     }
